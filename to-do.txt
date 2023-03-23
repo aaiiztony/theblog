@@ -1,0 +1,9 @@
+1. Make the web site responsive
+	a. Change the nav bar to column direction with a cross button to show/hide it
+	b. Remove the heroImg.
+	c. Change the grid-template column to better fit the aspect ratio of the device.
+2. Make sure the about page animation doesn't affect its text-c0nt.
+3. Create a dark mode filter
+4. Make sure the font-size chnages according to the device width.
+5. Usee clamp, min and max wherver neccessary.
+

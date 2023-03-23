@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Ubuntu:wght@500&display=swap');
+
+.contact-page{
+    width: 85vw;
+    /* background: url("heroImg.png") no-repeat; */
+    /* background-position: center buttom; */
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6vh;
+    height: 90vh;
+    /* background-size: cover; */
+    /* background-image: none; */
+    /* background-size: contain; */
+    /* border: solid 2px black; */
+    margin: 4vh auto;
+    /* background-position: center top; */
+}
+/* The image and the contact pagw works great in transition, copy paste this whenever in need */
+
+.con-inp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp{
+    width: 26vw;
+    height: 6vh;
+    margin: 3vh;
+    border-radius: 3vh;
+    border: solid 1.4px black;
+    /* background-color: var(--main); */
+    /* color: white; */
+}
+.inp:focus{
+    outline: 2px solid aqua;
+}
+.inp-btn{
+    height: 5vh;
+    width: 7vw;
+    background-color: black;
+    color: var(--main);
+    border-radius: 3vh;
+}
+.inp-btn:hover {
+    background-color: var(--main);
+    color: black;
+    cursor: pointer;
+    height: 5.5vh;
+    width: 7.5vw;
+    border-radius: 4vh;
+}
+.contact-page:hover{
+    background: url("heroImg.png") no-repeat;
+    /* background-position: center; */
+    background-position: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* border-radius: 6vh; */
+    background-size: cover;
+    transition: 0.7s;
+    /* border: solid 1.7px black; */
+}
+#concern{
+    height: 27vh;
+    border-radius: 2vh;
+    width: 25vw;
+    margin: 0 0 3vh 0vh;
+}

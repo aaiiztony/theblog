@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <header>
+        <div class="top m-auto flex">
+            <div class="logo">
+                <img src="imgs/logo.png" alt="tony.logo">
+                <ul>
+                    <li><a href="index.html">Main
+                            <!-- Later, add the portfolio website link on the main link --></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search-div">
+                <form action="/search.html" method="get">
+                    <ul>
+                        <li><input class="search font-p txt-cen" type="search" placeholder="Found your blog?"
+                            name="query" id=""></li>
+                            <li><i class="fa-solid fa-magnifying-glass search-icon" id="search-icon"></i></li>
+                        </ul>
+                    </form>
+                    <ul><li><i class="fa-solid fa-palette" id="changeColorBtn"></i></li></ul>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <div class="about-main m-auto">
+        <div class="about flex font-p">
+            <img src="css/about.jfif" alt="Web Dev" srcset="">
+            <!-- shift the text and make sure the img hover doesn't affect the text-cont -->
+            <div class="txt-cont">
+                <h2 class="font-p">Just the player adding some skill attribute!</h2>
+                <p>- I just don't like boring stuff, I love them. <br> - Hate coding, Hate writing paragraphs about
+                    myself! (Ironic ik). <br>- Love food, good music and bit of laugh on my weird jokes.</p>
+                <a href="http://www.linkedin.com/in/aaiztony"><button class="about-btns font-p">
+                        LinkedIn
+                    </button></a>
+                <a href="mailto:aaiiztony@gmail.com"><button class="about-btns font-p">
+                        Email Me!
+                    </button></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="infoCont flex font-p">
+            Copyright &copy Aaiiztony
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/25c66c8381.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

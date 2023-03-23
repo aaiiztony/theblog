@@ -1,0 +1,66 @@
+.about{
+    height: 83vh;
+    width: 85vw;
+}
+.about img{
+    width: 27vw;
+    border-radius: 31vh;
+    outline: 2.9px dotted black;
+}
+.about.img:focus-visible{
+    outline: 5px solid aqua;
+}
+.about img:hover{
+    width: 27vw;
+    border-radius: 31vh;
+    border: solid 20px var(--main);
+    transition: 0.51s;
+    cursor: pointer;
+}
+.about img:focus{
+    outline: 2px solid aqua;
+    display: none;
+}
+.about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    width: 85vw;
+}
+.txt-cont{
+    padding:0 2vh;
+    font-size: 2.5vh;
+}
+.txt-cont p{
+    width: 54vw;
+    margin: auto;
+}
+.txt-cont h2{
+    font-size: 9vh;
+}
+.about-btns{
+    width: 11.5vw;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: solid 2px black;
+    border-radius: 5vh;
+    margin: 4vh 0.3vh;
+}
+.about-btns a{
+    text-decoration: none;
+    color: white;
+}
+.about-btns:hover{
+    width: 12vw;
+    height: 6.5vh;
+    border-radius: 5vh;
+    background-color: var(--main);
+    color: black;
+    transition: 0.31s;
+}
+.about-btns:hover a{
+    color: white;
+}
